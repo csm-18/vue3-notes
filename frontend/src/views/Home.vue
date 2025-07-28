@@ -1,13 +1,20 @@
-<script setup></script>
+<script setup>
+import ProjectSetup from '@/components/ProjectSetup.md'
+</script>
 
 <template>
-  <h1>Hello!</h1>
+  <div class="home-container">
+    <ProjectSetup />
+  </div>
 </template>
 
 <style lang="scss">
-h1 {
-  text-align: center;
-  font-size: 5rem;
-  background: rgb(61, 187, 187);
+.home-container {
+  height: 100%;
+  color: gray;
+  font-family: sans;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 </style>
