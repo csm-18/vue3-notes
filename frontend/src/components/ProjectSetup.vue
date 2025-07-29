@@ -28,6 +28,10 @@ import CodeBlock from './CodeBlock.vue'
           'Prettier? Yes',
         ]"
       />
+      <code-block
+        class="code"
+        :code="['Skip all example code and start with a blank Vue project? No']"
+      />
       <p>3. Open project in vs code</p>
       <code-block class="code" dollar="true" :code="['code <your-project-name>']" />
       <p>4. Install and test run</p>
