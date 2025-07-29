@@ -1,5 +1,5 @@
 <script setup>
-import ProjectSetup from '@/components/ProjectSetup.md'
+import ProjectSetup from '@/components/ProjectSetup.vue'
 </script>
 
 <template>
@@ -11,8 +11,6 @@ import ProjectSetup from '@/components/ProjectSetup.md'
 <style lang="scss">
 .home-container {
   height: 100%;
-  color: gray;
-  font-family: sans;
   display: flex;
   flex-direction: column;
   align-items: center;

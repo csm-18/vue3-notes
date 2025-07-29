@@ -1,7 +1,12 @@
 <h1>Project Setup</h1>
 
-<style lang="scss">
-    h1{
-        font-size: 3rem;
-    }
-</style>
+<h2>Tools</h2>
+
+- vs code (with vue extension)
+- bun
+
+<h2>Instructions</h2>
+
+```sh
+bun create vue@latest
+```
