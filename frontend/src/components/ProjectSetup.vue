@@ -16,7 +16,7 @@ import CodeBlock from './CodeBlock.vue'
     <div class="steps">
       <h2>Steps</h2>
       <p>1. Get vue</p>
-      <code-block class="code" dollar="true" :code="['npm create vue@latest']" />
+      <code-block class="code" dollar="true" :code="['bun create vue@latest']" />
       <p>2. Select these options</p>
       <code-block
         class="code"
