@@ -162,7 +162,7 @@ import CodeBlock from './CodeBlock.vue'
           '  <RouterView />',
           '</template>',
           '',
-          '<style scoped lang=\'scss\'><style>',
+          '<style scoped lang=\'scss\'></style>',
         ]"
       />
       <p>13. To build the project</p>
