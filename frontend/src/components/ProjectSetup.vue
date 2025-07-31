@@ -165,6 +165,9 @@ import CodeBlock from './CodeBlock.vue'
           '<style scoped lang=\'scss\'><style>',
         ]"
       />
+      <p>13. To build the project</p>
+      <code-block class="code" dollar="true" :code="['bun run build']" />
+      <p class="green">You can serve it with any backend server</p>
     </div>
   </div>
 </template>
@@ -213,6 +216,10 @@ import CodeBlock from './CodeBlock.vue'
 
     h3 {
       margin-top: 5rem;
+    }
+
+    .green {
+      color: rgb(25, 189, 25);
     }
   }
 }
