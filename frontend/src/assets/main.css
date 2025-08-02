@@ -10,4 +10,7 @@ body {
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
+
+  --light-blue: #84c9f7;
+  --blue: rgb(84, 201, 247);
 }

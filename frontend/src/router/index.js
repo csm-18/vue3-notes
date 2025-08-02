@@ -15,6 +15,11 @@ const router = createRouter({
       name: 'project-setup',
       component: () => import('@/views/ProjectSetup.vue'),
     },
+    {
+      path: '/sfc-template',
+      name: 'sfc-template',
+      component: () => import('@/views/SfcTemplate.vue'),
+    },
     // {
     //   path: '/about',
     //   name: 'about',

@@ -7,6 +7,7 @@ import { RouterLink } from 'vue-router'
     <h1>My Vue3 Notes</h1>
     <div class="page-links">
       <router-link class="page-link" to="/project-setup">Project Setup</router-link>
+      <router-link class="page-link" to="/sfc-template">SFC Template</router-link>
     </div>
   </div>
 </template>
@@ -40,6 +41,7 @@ import { RouterLink } from 'vue-router'
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
 
     .page-link {
       text-align: center;
