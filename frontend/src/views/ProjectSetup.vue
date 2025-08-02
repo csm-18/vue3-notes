@@ -1,8 +1,10 @@
 <script setup>
 import CodeBlock from '@/components/CodeBlock.vue'
+import NavBar from '@/components/NavBar.vue'
 </script>
 <template>
   <div class="project-setup">
+    <nav-bar />
     <h1>Project Setup</h1>
     <div class="tools">
       <h2>Tools</h2>
