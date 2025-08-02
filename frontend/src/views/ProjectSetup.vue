@@ -1,5 +1,5 @@
 <script setup>
-import CodeBlock from './CodeBlock.vue'
+import CodeBlock from '@/components/CodeBlock.vue'
 </script>
 <template>
   <div class="project-setup">
@@ -174,16 +174,23 @@ import CodeBlock from './CodeBlock.vue'
 
 <style scoped lang="scss">
 .project-setup {
-  width: 80%;
+  font-family: 'Inter', sans;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+
+  margin: 0 10rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 1.8rem;
-  font-family: sans;
+  font-size: 2rem;
   padding-bottom: 4rem;
 
   h1 {
-    font-size: 4rem;
+    margin: 0;
+    padding: 1rem;
+    color: rgb(84, 201, 247);
+    font-size: 4.5rem;
   }
 
   .tools {
@@ -191,6 +198,10 @@ import CodeBlock from './CodeBlock.vue'
     padding-bottom: 4rem;
     align-self: flex-start;
 
+    h2 {
+      font-size: 3.2rem;
+      color: rgb(84, 201, 247);
+    }
     ul {
       list-style: none;
       display: flex;
@@ -210,11 +221,18 @@ import CodeBlock from './CodeBlock.vue'
     flex-direction: column;
     align-self: flex-start;
 
+    h2 {
+      font-size: 3.2rem;
+      color: rgb(84, 201, 247);
+    }
+
     .code {
       margin-left: 2rem;
     }
 
     h3 {
+      font-size: 2.4rem;
+      color: rgb(84, 201, 247);
       margin-top: 5rem;
     }
 

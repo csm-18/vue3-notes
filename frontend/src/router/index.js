@@ -10,6 +10,11 @@ const router = createRouter({
       name: 'home',
       component: Home,
     },
+    {
+      path: '/project-setup',
+      name: 'project-setup',
+      component: () => import('@/views/ProjectSetup.vue'),
+    },
     // {
     //   path: '/about',
     //   name: 'about',
