@@ -20,6 +20,11 @@ const router = createRouter({
       name: 'sfc-template',
       component: () => import('@/views/SfcTemplate.vue'),
     },
+    {
+      path: '/github-pages-deploy',
+      name: 'github-pages-deploy',
+      component: () => import('@/views/GitHubPagesDeploy.vue'),
+    },
     // {
     //   path: '/about',
     //   name: 'about',

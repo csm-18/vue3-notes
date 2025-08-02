@@ -8,12 +8,14 @@ import { RouterLink } from 'vue-router'
     <div class="page-links">
       <router-link class="page-link" to="/project-setup">Project Setup</router-link>
       <router-link class="page-link" to="/sfc-template">SFC Template</router-link>
+      <router-link class="page-link" to="/github-pages-deploy">GitHub Pages Deploy</router-link>
     </div>
   </div>
 </template>
 
 <style lang="scss">
 .home {
+  margin: 0 2rem;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,11 +38,10 @@ import { RouterLink } from 'vue-router'
 
   .page-links {
     margin-top: 4rem;
-    margin-left: 8rem;
     padding: 2rem;
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
 
     .page-link {
@@ -48,7 +49,7 @@ import { RouterLink } from 'vue-router'
       color: #fff;
       background: rgb(84, 201, 247);
       text-decoration: none;
-      font-size: 4rem;
+      font-size: 3rem;
       padding: 2rem;
       border-radius: 0.25rem;
     }
